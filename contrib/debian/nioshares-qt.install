@@ -1,0 +1,6 @@
+usr/local/bin/nioshares-qt usr/bin
+share/pixmaps/nioshares32.xpm usr/share/pixmaps
+share/pixmaps/nioshares16.xpm usr/share/pixmaps
+share/pixmaps/nioshares128.png usr/share/pixmaps
+debian/nioshares-qt.desktop usr/share/applications
+debian/nioshares-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nioshares_bg.qm</file>
+        <file alias="ca">locale/nioshares_ca.qm</file>
+        <file alias="cs">locale/nioshares_cs.qm</file>
+        <file alias="da">locale/nioshares_da.qm</file>
+        <file alias="de">locale/nioshares_de.qm</file>
+        <file alias="en">locale/nioshares_en.qm</file>
+        <file alias="en_GB">locale/nioshares_en_GB.qm</file>
+        <file alias="en_US">locale/nioshares_en_US.qm</file>
+        <file alias="eo">locale/nioshares_eo.qm</file>
+        <file alias="es">locale/nioshares_es.qm</file>
+        <file alias="es_ES">locale/nioshares_es_ES.qm</file>
+        <file alias="fi">locale/nioshares_fi.qm</file>
+        <file alias="fr_FR">locale/nioshares_fr_FR.qm</file>
+        <file alias="hi_IN">locale/nioshares_hi_IN.qm</file>
+        <file alias="hr">locale/nioshares_hr.qm</file>
+        <file alias="hr_HR">locale/nioshares_hr_HR.qm</file>
+        <file alias="it">locale/nioshares_it.qm</file>
+        <file alias="ja">locale/nioshares_ja.qm</file>
+        <file alias="ko_KR">locale/nioshares_ko_KR.qm</file>
+        <file alias="lt_LT">locale/nioshares_lt_LT.qm</file>
+        <file alias="nl">locale/nioshares_nl.qm</file>
+        <file alias="pl">locale/nioshares_pl.qm</file>
+        <file alias="pt">locale/nioshares_pt.qm</file>
+        <file alias="pt_BR">locale/nioshares_pt_BR.qm</file>
+        <file alias="ro_RO">locale/nioshares_ro_RO.qm</file>
+        <file alias="ru">locale/nioshares_ru.qm</file>
+        <file alias="sk">locale/nioshares_sk.qm</file>
+        <file alias="sv">locale/nioshares_sv.qm</file>
+        <file alias="tr">locale/nioshares_tr.qm</file>
+        <file alias="uk">locale/nioshares_uk.qm</file>
+        <file alias="vi">locale/nioshares_vi.qm</file>
+        <file alias="zh_CN">locale/nioshares_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nioshares_zh_TW.qm</file>
+    </qresource>
+</RCC>

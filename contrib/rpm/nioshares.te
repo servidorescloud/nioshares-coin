@@ -1,0 +1,81 @@
+policy_module(nioshares, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type nioshares_t;
+type nioshares_exec_t;
+init_daemon_domain(nioshares_t, nioshares_exec_t)
+
+permissive nioshares_t;
+
+type nioshares_initrc_exec_t;
+init_script_file(nioshares_initrc_exec_t)
+
+type nioshares_conf_t;
+files_type(nioshares_conf_t)
+
+type nioshares_var_lib_t;
+files_type(nioshares_var_lib_t)
+
+type nioshares_var_run_t;
+files_type(nioshares_var_run_t)
+
+type nioshares_port_t;
+corenet_port(nioshares_port_t)
+
+########################################
+#
+# nioshares local policy
+#
+allow nioshares_t self:process { fork };
+
+allow nioshares_t self:fifo_file rw_fifo_file_perms;
+allow nioshares_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(nioshares_t, nioshares_conf_t, nioshares_conf_t)
+manage_files_pattern(nioshares_t, nioshares_conf_t, nioshares_conf_t)
+
+manage_dirs_pattern(nioshares_t, nioshares_var_lib_t, nioshares_var_lib_t)
+manage_files_pattern(nioshares_t, nioshares_var_lib_t, nioshares_var_lib_t)
+files_var_lib_filetrans(nioshares_t, nioshares_var_lib_t, { dir file })
+
+manage_dirs_pattern(nioshares_t, nioshares_var_run_t, nioshares_var_run_t)
+manage_files_pattern(nioshares_t, nioshares_var_run_t, nioshares_var_run_t)
+
+sysnet_dns_name_resolve(nioshares_t)
+corenet_all_recvfrom_unlabeled(nioshares_t)
+
+allow nioshares_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(nioshares_t)
+corenet_tcp_sendrecv_generic_node(nioshares_t)
+corenet_tcp_sendrecv_all_ports(nioshares_t)
+corenet_tcp_bind_generic_node(nioshares_t)
+
+gen_require(`
+    type nioshares_port_t;
+')
+allow nioshares_t nioshares_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type nioshares_port_t;
+')
+allow nioshares_t nioshares_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(nioshares_t)
+
+files_read_etc_files(nioshares_t)
+
+miscfiles_read_localization(nioshares_t)
+
+sysnet_dns_name_resolve(nioshares_t)
+
+allow nioshares_t nioshares_exec_t:file execute_no_trans;
+allow nioshares_t self:process setsched;
+corecmd_exec_ls(nioshares_t)
+corenet_tcp_connect_http_port(nioshares_t)
+dev_read_urand(nioshares_t)
+fs_getattr_xattr_fs(nioshares_t)
+kernel_read_system_state(nioshares_t)

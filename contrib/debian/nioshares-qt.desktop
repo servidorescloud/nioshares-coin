@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Nioshares Core
+Comment=Nioshares P2P Cryptocurrency
+Comment[fr]=Nioshares, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nioshares, eşten eşe kriptografik sanal para birimi
+Exec=nioshares-qt %u
+Terminal=false
+Type=Application
+Icon=nioshares128
+MimeType=x-scheme-handler/nioshares;
+Categories=Office;Finance;
+StartupWMClass=Nioshares-qt

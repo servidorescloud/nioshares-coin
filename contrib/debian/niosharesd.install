@@ -1,0 +1,3 @@
+usr/local/bin/niosharesd usr/bin
+usr/local/bin/nioshares-cli usr/bin
+debian/examples/nioshares.conf etc/nioshares
