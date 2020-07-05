@@ -1,0 +1,33 @@
+# /etc/conf.d/niosharesd: config file for /etc/init.d/niosharesd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nioshares/nioshares.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/niosharesd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/niosharesd.pid"
+
+# Where to write niosharesd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/niosharesd"
+
+# User and group to own niosharesd process
+#BITCOIND_USER="nioshares"
+#BITCOIND_GROUP="nioshares"
+
+# Path to niosharesd executable
+#BITCOIND_BIN="/usr/bin/niosharesd"
+
+# Nice value to run niosharesd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,11 @@
+[Protocol]
+exec=nioshares-qt '%u'
+protocol=nioshares
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
