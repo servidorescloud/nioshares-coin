@@ -912,13 +912,13 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
      nSubsidy = 747446 * COIN;
     }
     else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
-     nSubsidy = 10 * COIN;
+     nSubsidy = 1 * COIN;
     }
     else if (nHeight > Params().LAST_POW_BLOCK()) {
      nSubsidy = 1 * COIN;
     }
 
-    return ((nSubsidy / 100) * 5) * 144 * 30;
+    return ((nSubsidy / 100) * 5) * 720 * 30;
 
 }
 

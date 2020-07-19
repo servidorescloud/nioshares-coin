@@ -6712,8 +6712,8 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>(21038 could be used only on mainnet)</source>
-        <translation type="unfinished">(21038 could be used only on mainnet)</translation>
+        <source>(21392 could be used only on mainnet)</source>
+        <translation type="unfinished">(21392 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6727,7 +6727,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 21038 for mainnet)</source>
+        <source>(must be 21392 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

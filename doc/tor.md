@@ -46,11 +46,11 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/nioshares-service/
-	HiddenServicePort 21038 127.0.0.1:21038
+	HiddenServicePort 21392 127.0.0.1:21392
 	HiddenServicePort 61472 127.0.0.1:61472
 
 The directory can be different of course, but (both) port numbers should be equal to
-your niosharesd's P2P listen port (21038 by default).
+your niosharesd's P2P listen port (21392 by default).
 
 	-externalip=X   You can tell nioshares about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -85,7 +85,7 @@ as well, use `discover` instead:
 
 	./niosharesd ... -discover
 
-and open port 21038 on your firewall (or use -upnp).
+and open port 21392 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

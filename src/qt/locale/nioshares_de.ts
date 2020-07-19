@@ -4889,8 +4889,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Sie müssen einen privaten Masternode-Schlüssel in der Konfiguration festlegen. Bitte nutzen Sie die Dokumentation zwecks Hilfe.</translation>
     </message>
     <message>
-        <source>(21038 could be used only on mainnet)</source>
-        <translation>(21038 kann nur im Mainnet verwendet werden)</translation>
+        <source>(21392 could be used only on mainnet)</source>
+        <translation>(21392 kann nur im Mainnet verwendet werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4901,8 +4901,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 21038 for mainnet)</source>
-        <translation>(muss im Mainnet 21038 sein)</translation>
+        <source>(must be 21392 for mainnet)</source>
+        <translation>(muss im Mainnet 21392 sein)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
