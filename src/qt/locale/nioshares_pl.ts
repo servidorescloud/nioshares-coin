@@ -5183,8 +5183,8 @@ Proszę być cierpliwym...</translation>
         <translation>Musisz określić masternodeprivkey w konfiguracji. Aby uzyskać pomoc, zapoznaj się z dokumentacją.</translation>
     </message>
     <message>
-        <source>(21038 could be used only on mainnet)</source>
-        <translation>(21038 może być używany tylko w sieci mainnet)</translation>
+        <source>(21392 could be used only on mainnet)</source>
+        <translation>(21392 może być używany tylko w sieci mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5195,8 +5195,8 @@ Proszę być cierpliwym...</translation>
         <translation>(domyślnie: 1)</translation>
     </message>
     <message>
-        <source>(must be 21038 for mainnet)</source>
-        <translation>(musi być 21038 dla mainnetu)</translation>
+        <source>(must be 21392 for mainnet)</source>
+        <translation>(musi być 21392 dla mainnetu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

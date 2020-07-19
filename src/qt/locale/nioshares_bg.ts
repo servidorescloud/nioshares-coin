@@ -4882,8 +4882,8 @@ Please be patient...</source>
         <translation>Трябва да зададете masternodeprivkey в конфигурационния файл. Консултирайте се с документацията за повече помощ.</translation>
     </message>
     <message>
-        <source>(21038 could be used only on mainnet)</source>
-        <translation>(21038 може да се ползва само в mainnet)</translation>
+        <source>(21392 could be used only on mainnet)</source>
+        <translation>(21392 може да се ползва само в mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4894,8 +4894,8 @@ Please be patient...</source>
         <translation>(по подразбиране: 1)</translation>
     </message>
     <message>
-        <source>(must be 21038 for mainnet)</source>
-        <translation>(трябва да е 21038 за mainnet)</translation>
+        <source>(must be 21392 for mainnet)</source>
+        <translation>(трябва да е 21392 за mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
