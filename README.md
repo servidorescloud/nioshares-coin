@@ -1,1 +1,1 @@
-# Nioshares-coin
+# Nioshares
